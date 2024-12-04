@@ -9,3 +9,5 @@ step_b.py
 syspytools.py
 syspysqlconnector.py
 syspyzipper.py
+requirements.txt
+.gitignore
