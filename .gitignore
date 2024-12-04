@@ -3,3 +3,9 @@ __pycache__/
 data_set_da_test.csv
 main.py
 dataset_profile.html
+syspydataprofiler.py
+step_a.py
+step_b.py
+syspytools.py
+syspysqlconnector.py
+syspyzipper.py

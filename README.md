@@ -20,5 +20,10 @@ Web Browser
 5. Install dependencies:
 -- pip install -r requirements.txt;
 
+## Files
+data_set_da_test.csv -> dataset provided by employer
+step_a.py -> python program to analyse provided dataset
+step_b.py -> python program to transform provided dataset
+
 ## Usage
-In progress of preparation
+1. Run 'step_analyse.py' program. This program is designed to show data insights of provided dataset. During program run, you will be prompted about its progress. First run might take a little bit longer as ydata profiling package has to be initialized. This is the first step of the data analysis process.
