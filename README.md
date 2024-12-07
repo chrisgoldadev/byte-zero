@@ -40,7 +40,7 @@ requirements.txt -> file which contains all packages necessary to run scripts in
 
 ## Usage
 1. Run 'step_a.py' program. CMD: python step_a.py
-2. Run 'step_b.py program. CMD: python step_b.py
+2. Run 'step_b.py program. CMD: python step_b.py - you can skip this test as table has been already loaded to SQL, but if you want you can process this step to see its working however please be informed that SQL database specifications are the lowest and it takes some time to process and load data to database.
 3. After running both steps, you can open 'Customer Analysis.pbix' file to view the report in PowerBI tool. 
 
 ## IMPORTANT NOTICE
