@@ -1,6 +1,5 @@
 .venv/
 __pycache__/
-.gitignore
 data_set_da_test.csv
 dataset_profile.html
 requirements.txt
