@@ -1,13 +1,10 @@
 .venv/
 __pycache__/
+.gitignore
 data_set_da_test.csv
-main.py
 dataset_profile.html
-syspydataprofiler.py
+requirements.txt
+sandbox.py
 step_a.py
 step_b.py
-syspytools.py
-syspysqlconnector.py
 syspyzipper.py
-requirements.txt
-.gitignore
