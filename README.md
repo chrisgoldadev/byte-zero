@@ -24,7 +24,7 @@ This project analyzes customer behavior and creates an ETL pipeline, moving data
 4. Activate the virtual environement:
 -- venv\Scripts\activate;
 5. Install dependencies:
--- pip install -r requirements.txt, it can take few minutes to install dependencies, depends on your bandwith connection
+-- pip install -r requirements.txt, it can take few minutes to install dependencies, depends on your bandwidth connection
 
 Notice: If you are using VS Code just simply copy content of ByteZero folder to your project folder, using your venv you can start the programs. Make sure you have all necessary packages.
 
