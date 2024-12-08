@@ -10,10 +10,10 @@ This project analyzes customer behavior and creates an ETL pipeline, moving data
 - Create an analytical report to visualize customer journeys and conversions.
 
 ## Requirements
-Python 3.12.4
-path to you python executable for example default python path is "C:\Program Files\python 3.12.4\python.exe"
-pip (Python package installer)
-Web Browser
+- Python 3.12.4
+- path to you python executable for example default python path is "C:\Program Files\python 3.12.4\python.exe"
+- pip (Python package installer)
+- Web Browser (Chrome, Opera, Egde)
 
 ## Setup
 1. Unpack the ZIP file to the desired folder, this will be your root folder of the project, should be extract for example to "C:\ByteZero", make sure all your files are inside folder "ByteZero";
@@ -33,11 +33,11 @@ Notice: Scripts are designed with Python 3.12.4 version and pip version 24.3.1, 
 You are set up, you can run scripts inside the ByteZero folder.
 
 ## Files
-data_set_da_test.csv -> dataset provided by employer
-step_a.py -> python program to analyse provided dataset
-step_b.py -> python program to transform provided dataset
-requirements.txt -> file which contains all packages necessary to run scripts in ByteZero folder
-DEV_AUTODOC_FUNNEL.pbix -> pbix file which contains final product delivered by project
+- data_set_da_test.csv -> dataset provided by employer
+- step_a.py -> python program to analyse provided dataset
+- step_b.py -> python program to transform provided dataset
+- requirements.txt -> file which contains all packages necessary to run scripts in ByteZero folder
+- DEV_AUTODOC_FUNNEL.pbix -> pbix file which contains final product delivered by project
 
 ## Usage
 1. Run 'step_a.py' program. CMD: python step_a.py
@@ -45,4 +45,5 @@ DEV_AUTODOC_FUNNEL.pbix -> pbix file which contains final product delivered by p
 3. After running both steps, you can open 'DEV_AUTODOC_FUNNEL.pbix' file to view the report in PowerBI tool. 
 
 ## IMPORTANT NOTICE
-To run step_b.py file please make sure you have username and password to SQL database provided in the email, due to security reasons password and username credentials are outside of the repository.
+Once running step_b.py you will be prompted to enter credentials: server name, database, username and password. Those will be send separately in the email due to security reasons.
+As mentioned in Usage section point 2 data is already sinked into SQL database table, however when you decide to run the process, table will be loaded again using 'replace' function.
