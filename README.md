@@ -37,11 +37,12 @@ data_set_da_test.csv -> dataset provided by employer
 step_a.py -> python program to analyse provided dataset
 step_b.py -> python program to transform provided dataset
 requirements.txt -> file which contains all packages necessary to run scripts in ByteZero folder
+DEV_AUTODOC_FUNNEL.pbix -> pbix file which contains final product delivered by project
 
 ## Usage
 1. Run 'step_a.py' program. CMD: python step_a.py
-2. Run 'step_b.py program. CMD: python step_b.py - you can skip this test as table has been already loaded to SQL, but if you want you can process this step to see its working however please be informed that SQL database specifications are the lowest and it takes some time to process and load data to database.
-3. After running both steps, you can open 'Customer Analysis.pbix' file to view the report in PowerBI tool. 
+2. Run 'step_b.py program. CMD: python step_b.py - you can skip this step as table has been already loaded to SQL, but if you want you can process this step to see its working however please be informed that SQL database specifications are the lowest and it takes some time to process and load data to database.
+3. After running both steps, you can open 'DEV_AUTODOC_FUNNEL.pbix' file to view the report in PowerBI tool. 
 
 ## IMPORTANT NOTICE
 To run step_b.py file please make sure you have username and password to SQL database provided in the email, due to security reasons password and username credentials are outside of the repository.
