@@ -47,3 +47,4 @@ You are set up, you can run scripts inside the ByteZero folder.
 ## IMPORTANT NOTICE
 Once running step_b.py you will be prompted to enter credentials: server name, database, username and password. Those will be send separately in the email due to security reasons.
 As mentioned in Usage section point 2 data is already sinked into SQL database table, however when you decide to run the process, table will be loaded again using 'replace' function.
+Another case is, that only trusted machines can query the table in SQL server. If you want to run step_b.py file on your end, your IPv4 address has to be added on the list of trusted machines in Azure settings.
